@@ -15,8 +15,8 @@
  color: #eb1e30;
 }
 .container-header {
- max-width: 1500px;
- padding-left: 150px;
+ max-width: 2500px;
+ padding-left: 100px;
 }
 .block:hover, a.block:focus, a.block:active
 { background-color:white; }
