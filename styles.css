@@ -15,8 +15,8 @@
  color: #eb1e30;
 }
 .container-header {
- max-width: 1000px;
- padding-left: 300px;
+ max-width: 800px;
+ padding-left: 100px;
 }
 .block:hover,  a.block:active
 { background-color:white; }
@@ -36,7 +36,7 @@ text-decoration: none;
  display: inline;
 }
 .stemma{
-  padding-left: 300px;
+  padding-left: 100px;
 }
 {BODY-------}
 body {
