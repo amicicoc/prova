@@ -40,7 +40,7 @@ body {
 .post, .about, .contact {
  max-width: 1000px;
  margin: 0 auto;
- padding: 60px 0 0 100px;
+ padding: 60px 0 100px 100px;
 }
 .post-autor img {
  width: 50px;
@@ -94,7 +94,7 @@ p {
  padding: 50px 0px 50px 150px;
 }
 .column {
- min-width: 300px;
+ min-width: 400px;
  display: inline-block;
  vertical-align: top;
 }
