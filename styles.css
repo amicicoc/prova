@@ -102,7 +102,7 @@ p {
  padding: 50px 0px 50px 150px;
 }
 .column {
- min-width: 200px;
+ min-width: 350px;
  display: inline-block;
  vertical-align: top;
 }
