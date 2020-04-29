@@ -40,7 +40,7 @@ body {
 .post, .about, .contact {
  max-width: 800px;
  margin: 0 auto;
- padding: 60px 0 100px 100px;
+ padding: 60px 0 100px 0px;
 }
 .post-autor img {
  width: 50px;
