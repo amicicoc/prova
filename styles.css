@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-{HEADER------}
+{HEADER---mobile---}
+@media screen and (min-width: 400px) and (max-width: 750px) {
+#header-nav-desk, #header-nav-desk li {display: none;}
 #header {
   background-color: #eb1e30;
   height: 350px;
@@ -20,23 +22,56 @@
 }
 .block:hover,  a.block:active
 { background-color:white; }
-#header-nav {
+#header-nav-mob {
  display: block;
  float: left;
  margin-top: 100px;
 }
 a.block {
-display:inline;
-padding:50px 30px 50px 30px;
-border:1px solid white;
-border-radius: 30px;
-text-decoration: none;
+ display:inline;
+ padding:50px 30px 50px 30px;
+ text-decoration: none;
 }
-#header-nav li {
+#header-nav-mob li {
  display: inline;
 }
 .stemma{
   padding-left: 100px;
+ }
+}
+{HEADER---desktop---}
+@media screen and (min-width: 750px) {
+#header-nav-mob, #header-nav-mob li {display: none;}
+#header {
+   background-color: #eb1e30;
+   height: 180px;
+   line-height: 0px;
+ }
+ #header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+ }
+ #header a:hover {
+  color: #222;
+ }
+ .home {
+   font-size: 20px;
+   font-weight: bold;
+ }
+ #header-nav-desk {
+  display: block;
+  float: center;
+  margin-top: 100;
+ }
+ #header-nav-desk li {
+  display: inline;
+  padding-left: 80px;
+ }
+ .stemma{
+   padding-left: 110px;
+ }
 }
 {BODY-------}
 body {
