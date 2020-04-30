@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 {HEADER---mobile---}
-@media screen and (min-width: 400px) and (max-width: 750px) {
+@media screen and (min-width: 400px) and (max-width: 900px) {
 #header-nav-desk, #header-nav-desk li {display: none;}
 #header {
   background-color: #eb1e30;
@@ -40,7 +40,7 @@ a.block {
  }
 }
 {HEADER---desktop---}
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 900px) {
 #header-nav-mob, #header-nav-mob li {display: none;}
 #header {
    background-color: #eb1e30;
