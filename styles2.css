@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+{HEADER------}
+#header {
+  background-color: #eb1e30;
+  height: 350px;
+  line-height: 0px;
+}
+#header a {
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+#header a:hover {
+ color: #eb1e30;
+}
+.container-header {
+ max-width: 1500px;
+ padding-left: 150px;
+}
+.block:hover, a.block:focus, a.block:active
+{ background-color:white; }
+#header-nav {
+ display: block;
+ float: left;
+ margin-top: 100px;
+}
+a.block {
+display:inline;
+padding:50px;
+border:1px solid white;
+border-radius: 15px;
+text-decoration: none}
+#header-nav li {
+ display: inline;
+}
+.stemma{
+  padding-left: 300px;
+}
+{BODY-------}
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+}
+.post, .about, .contact {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 60px 0 100px 0px;
+}
+.post-autor img {
+ width: 50px;
+ height: 50px;
+ vertical-align: middle;
+}
+.post-autor span {
+ margin-left: 16px;
+}
+.post-date {
+ color: #D2D2D2;
+
+ font-size: 14px;
+ font-weight: bold;
+
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {
+ color: #333;
+}
+p {
+ line-height: 1.5;
+}
+.container {
+ max-width: 1000px;
+ margin: 0 auto;
+}
+.about {
+ text-align: center;
+}
+.testo {
+ text-align: left;
+}
+.post-container:nth-child(even) {
+ background-color: #ffffff;
+}
+.contact {
+ text-align: center;
+}
+.post-author img,
+.post-author img {
+  border: solid 5px #eb1e30;
+  height: 100px;
+  width: 100px;
+  border-radius: 70px;
+}
