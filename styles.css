@@ -1,10 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-{HEADER---mobile---}
-@media all and (min-width: 400px) and (max-width: 900px) {
-#header-nav-desk, #header-nav-desk li {display: none;}
+{HEADER------}
 #header {
   background-color: #eb1e30;
-  height: 350px;
+  height: 180px;
   line-height: 0px;
 }
 #header a {
@@ -14,64 +12,27 @@
  letter-spacing: 0.1em;
 }
 #header a:hover {
- color: #eb1e30;
+ color: #222;
 }
-.container-header {
- max-width: 800px;
- padding-left: 100px;
+.home {
+  font-size: 20px;
+  font-weight: bold;
 }
-.block:hover,  a.block:active
-{ background-color:white; }
-#header-nav-mob {
+.linea {
+  margin-left:-25px;
+}
+#header-nav {
  display: block;
- float: left;
- margin-top: 100px;
+ float: center;
+ margin-top: 100;
+margin-left: -25px;
 }
-a.block {
- display:inline;
- padding:50px 30px 50px 30px;
- text-decoration: none;
-}
-#header-nav-mob li {
+#header-nav li {
  display: inline;
+ padding-left: 80px;
 }
 .stemma{
-  padding-left: 100px;
- }
-}
-{HEADER---desktop---}
-@media all and (min-width: 900px) {
-#header-nav-mob, #header-nav-mob li {display: none;}
-#header {
-   background-color: #eb1e30;
-   height: 180px;
-   line-height: 0px;
- }
- #header a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
- }
- #header a:hover {
-  color: #222;
- }
- .home {
-   font-size: 20px;
-   font-weight: bold;
- }
- #header-nav-desk {
-  display: block;
-  float: center;
-  margin-top: 100;
- }
- #header-nav-desk li {
-  display: inline;
-  padding-left: 80px;
- }
- .stemma{
-   padding-left: 110px;
- }
+  padding-left: 110px;
 }
 {BODY-------}
 body {
@@ -109,7 +70,7 @@ p {
  line-height: 1.5;
 }
 .container {
- max-width: 800px;
+ max-width: 1000px;
  margin: 0 auto;
 }
 .about {
@@ -137,7 +98,7 @@ p {
  padding: 50px 0px 50px 150px;
 }
 .column {
- min-width: 350px;
+ min-width: 400px;
  display: inline-block;
  vertical-align: top;
 }
