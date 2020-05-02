@@ -34,8 +34,11 @@ margin-left: -25px;
 .stemma{
   padding-left: 110px;
 }
-a.block { display:block;padding:5px; text-align: center; font-weight:bold; border:1px solid #eb1e30; background-color:#f5f238; text-decoration: #eb1e30}
-a.block:hover, a.block:focus, a.block:active { background-color:#f5f238; border:1px solid #eb1e30;}
+a.block { display:block;padding:5px; text-align: center; font-weight:bold;
+  border-top:1px solid #eb1e30; border-bottom:1px solid #eb1e30;
+  background-color:#f5f238; text-decoration: #eb1e30}
+a.block:hover, a.block:focus, a.block:active { background-color:#f5f238;
+  border-top:1px solid #eb1e30; border-bottom:1px solid #eb1e30;}
 {BODY-------}
 body {
   color: #555;
@@ -100,7 +103,7 @@ p {
  padding: 50px 0px 50px 150px;
 }
 .column {
- min-width: 400px;
+ min-width: 450px;
  display: inline-block;
  vertical-align: top;
 }
