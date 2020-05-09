@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Clash:400,700);
 {HEADER------}
 #header {
   background-color: #eb1e30;
@@ -97,6 +97,12 @@ p {
   width: 100px;
   border-radius: 70px;
 }
+.nocircle  {
+  height: 85px;
+  width: 100px;
+  padding-left: 200px;
+}
+
 {FOOTER-------------}
 #footer {
  background-color: #2f2f2f;
